@@ -639,7 +639,7 @@ console.log("Running Bot Launcher!");
             var b = ga - r / 2;
             for (var i = 0; i < getPlayer().length; i++) {
                 var tempID = getPlayer()[i].id;
-                64 > a * a + b * b || .01 > Math.abs(eb - ia[i]) && .01 > Math.abs(fb - ja[i]) || (eb = ia[i], fb = ja[i], a = N(21), a.setUint8(0, 16), a.setFloat64(1, ia[i], !0), a.setFloat64(9, ja[i], !0), a.setUint32(17, tempID, !0), O(a))
+                64 > a * a + b * b || .01 > Math.abs(eb - ia[i]) && .01 > Math.abs(fb - ja[i]) || (eb = ia[i], fb = ja[i], a = N(13), a.setUint8(0, 16), a.setInt32(1, ia[i], !0), a.setInt32(5, ja[i], !0), a.setUint32(9, tempID, !0), O(a))
             }
         }
     }
